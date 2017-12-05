@@ -6,7 +6,6 @@ public class Enemy2Controller : MonoBehaviour {
 
     public Enemy2Behavior _pawn;
 
-    // Use this for initialization
     void Start()
     { 
         _pawn = this.GetComponent<Enemy2Behavior>();
