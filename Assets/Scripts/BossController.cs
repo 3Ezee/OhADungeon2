@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class BossController : MonoBehaviour {
     public BossBehavior _pawn;
-    // Use this for initialization
+
     void Start () {
         _pawn = this.GetComponent<BossBehavior>();
     }
-	
-	// Update is called once per frame
+
 	void Update () {
         _pawn.Move(_pawn.transform.up);
 	}
