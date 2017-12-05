@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class ClickExample : MonoBehaviour
 {
+    //Esto es un comentario
     public Button Empezar;
     public Button ComoJugar;
     public Button Salir;
