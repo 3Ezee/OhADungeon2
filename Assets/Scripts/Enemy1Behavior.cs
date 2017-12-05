@@ -10,6 +10,7 @@ public class Enemy1Behavior : EnemyBehavior {
             this.transform.right = direction;
         _anim.SetFloat("SpeedX", Mathf.Abs(_rb.velocity.x));
         _rb.velocity = new Vector2(direction.x * speed, direction.y * speed);
+        //esto es otro comentario
     }
 
 
