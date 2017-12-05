@@ -25,11 +25,7 @@ public class ClickExample : MonoBehaviour
 
     void TaskStart()
     {
-
-        Debug.Log("Start game");
-
         SceneManager.LoadScene("Level");
-        
     }
 
     void TaskHowPlay()
